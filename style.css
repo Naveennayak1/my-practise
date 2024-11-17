@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+
+  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+  padding: 1em 0;
+}
+
+form {
+  max-width: 500px;
+  margin: 2em auto;
+  padding: 1em;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin: 0.5em 0 0.2em;
+}
+
+form input {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.5em 1em;
+  border: none;
+  background: #fd1d1d; /* fallback for old browsers */
+
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  margin: 2em auto;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 0.8em;
+  text-align: center;
+}
+
+table th {
+  background-color: #fd1d1d;
+  color: white;
+}
+
+.scroll-box {
+  overflow-y: auto;
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
+}
